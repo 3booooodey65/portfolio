@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import SocialLinks from './SocialLinks.jsx';
+import Abdalrahman from '../images/Abdalrahman.jpg';
 
 const titles = ['Frontend Developer', 'React Enthusiast', 'UI / UX Explorer'];
 
@@ -85,12 +86,12 @@ const Hero = () => {
         <div className="flex w-full flex-1 flex-col items-center gap-6">
           <div className="relative">
             <div className="h-56 w-56 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-1 shadow-2xl shadow-indigo-200 sm:h-64 sm:w-64">
-              <div className="flex h-full w-full items-center justify-center rounded-full bg-white">
-                <span className="text-lg font-semibold text-slate-500">Your Photo</span>
+              <div className="flex h-full w-full items-center justify-center rounded-full bg-white overflow-hidden">
+                <span className="text-lg font-semibold text-slate-500 "><img className='w-100' src={Abdalrahman} alt="Abdalrahman's Photo" /></span>
               </div>
             </div>
-            <div className="absolute -bottom-6 left-1/2 hidden -translate-x-1/2 rounded-full bg-white/90 px-6 py-2 text-sm font-medium text-indigo-600 shadow-lg shadow-indigo-100 md:block">
-              Available for freelance work
+            <div className="font-semibold text-center absolute -bottom-6 left-1/2 hidden -translate-x-1/2 rounded-full bg-white/90 px-6 py-2 text-sm font-medium text-indigo-600 shadow-lg shadow-indigo-100 md:block">
+              <span className='font-bold'>Available</span> for work
             </div>
           </div>
           <SocialLinks className="md:hidden" />
