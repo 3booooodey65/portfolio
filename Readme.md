@@ -10,6 +10,10 @@ A fully responsive personal portfolio built with [React](https://react.dev/) and
 npm install
 ```
 
+> ℹ️ During installation a small postinstall script verifies that Tailwind CSS's `preflight.css` file is present. If npm ever
+> skips that asset because of an interrupted install, the script restores a local fallback copy so the development server can
+> start without CSS plugin errors.
+
 ### 2. Start the development server
 
 ```bash
