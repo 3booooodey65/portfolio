@@ -26,7 +26,7 @@ const Header = ({ language, navLinks }) => {
             isArabic ? 'text-right' : 'text-left'
           }`}
         >
-          {language === 'ar' ? 'عبدالرحمن ماتر' : 'Abdalrahman Mater'}
+          {language === 'ar' ? 'عبدالرحمن مطر' : 'Abdalrahman Mater'}
         </a>
         <nav
           className={`hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex ${

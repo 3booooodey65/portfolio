@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: light;
-}
+@layer base {
+  :root {
+    color-scheme: light;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  @apply antialiased;
-}
+  body {
+    @apply antialiased;
+  }
 
-a {
-  @apply text-inherit no-underline;
+  a {
+    @apply text-inherit no-underline;
+  }
 }
