@@ -94,7 +94,6 @@ const Hero = ({ t }) => {
             <div className="h-56 w-56 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 p-1 shadow-2xl shadow-indigo-200 sm:h-64 sm:w-64">
               <div className="flex h-full w-full items-center justify-center rounded-full bg-white overflow-hidden">
                 <span className="text-lg font-semibold text-slate-500">
-                  {t.photoPlaceholder}
                   
                   <img src={Abdalrahman} alt="Abdalrahman's Photo" />
                 </span>

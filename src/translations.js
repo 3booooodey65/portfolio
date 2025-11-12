@@ -142,7 +142,7 @@ const translations = {
       description:
         'أنا مطور واجهات أمامية شغوف بصناعة تجارب استخدام جذابة وسلسة. أستمتع بتحويل الأفكار إلى واقع باستخدام أطر جافاسكربت الحديثة وتصاميم مدروسة.',
       contactButton: 'تواصل معي',
-      availability: 'متاح للعمل الحر',
+      availability: 'متاح للعمل ',
       photoPlaceholder: 'صورتك',
     },
     skills: {
